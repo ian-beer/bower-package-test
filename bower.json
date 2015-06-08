@@ -1,17 +1,5 @@
 {
   "name": "dt-bower-test",
-  "version": "0.0.1",
-  "main":  [ 
-     "Content/dtDatatableBindingHandler.js"
-   ] ,
-  "ignore": [
-    ".jshintrc",
-  ],
-   "description": "Get R Done",
-  "dependencies": {
-   
-  },
-  "devDependencies": {
-    
-  }
+  "version": "0.0.2",
+  
 }
