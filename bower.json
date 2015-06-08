@@ -1,5 +1,6 @@
 {
   "name": "dt-bower-test",
-  "version": "0.0.3"
+  "version": "0.0.3",
+  "main": "Content/dtDatatableBindingHandler.js"
   
 }
