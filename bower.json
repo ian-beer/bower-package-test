@@ -2,7 +2,7 @@
   "name": "dt-bower-test",
   "version": "0.0.1",
   "main":  [ 
-     "Content/hello.js"
+     "Content/dtDatatableBindingHandler.js"
    ] ,
   "ignore": [
     ".jshintrc",
