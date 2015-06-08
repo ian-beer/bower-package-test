@@ -6,7 +6,6 @@
    ] ,
   "ignore": [
     ".jshintrc",
-    "**/*.txt"
   ],
    "description": "Get R Done",
   "dependencies": {
