@@ -1,0 +1,19 @@
+
+   
+    <div class="dataTable_wrapper">
+                <table class="table table-striped table-bordered table-hover" data-bind="dataTable: { dataSource: dataList, rowBindings: 'click: $parent.goToAccount, css: \'clickable\'', columns: columns, rowTemplate: 'searchResultTableRow', dtoptions: { sDom: 'lrtp', paging: true }}" id="search-results-table"></table>
+    </div>
+  
+<script id="searchResultTableRow" type="text/html">
+  
+        <td data-bind="text: customer.displayName"></td>
+        <td class="center-vertical" data-bind="text : accountNumber"></td>
+        <td data-bind="text: customer.ssnLast4"></td>
+        <td class="center-vertical" data-bind="text: vin"></td>
+        <td data-bind="text: customer.location"></td>
+        <td data-bind="text: customer.customerType"></td>
+        <td class="center-vertical" data-bind="text: vehicleDescription"></td>
+        <td data-bind="text: customer.homeState, visible: false"></td>
+        <td data-bind="text: accountType,visible: false"></td>
+  
+</script>
