@@ -1,0 +1,18 @@
+{
+  "name": "dt-bower-test",
+  "version": "0.0.1",
+  "main":  [ 
+     "Content/hello.js"
+   ] ,
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+   "description": "Get R Done",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    
+  }
+}
